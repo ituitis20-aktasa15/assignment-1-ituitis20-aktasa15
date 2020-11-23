@@ -1,0 +1,4 @@
+<h2 style="text-align:center;">Who Am I?</h2>
+		<p style="text-align:center; font-size:130%;">My name is Alptekin Aktas. I have been playing drums for 8 yearas.<br>
+		I learned drum myself, and when I look back,I see that I made a lot of things by wrong way.<br>
+		My purpose is teach you the correct way to learn play drum. I hope that this website will helpful for you.</p><br>

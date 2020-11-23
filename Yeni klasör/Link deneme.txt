@@ -1,0 +1,68 @@
+<a href="http://www.w3schools.com">This is a link</a>
+
+Local Links
+The example above used an absolute URL (A full web address).
+
+A local link (link to the same web site) is specified with a relative URL (without http://www....).
+
+Example
+<a href="html_images.asp">HTML Images</a>
+
+
+
+
+
+
+
+HTML Links - The target Attribute
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_blank - Opens the linked document in a new window or tab
+_self - Opens the linked document in the same window/tab as it was clicked (this is default)
+_parent - Opens the linked document in the parent frame
+_top - Opens the linked document in the full body of the window
+framename - Opens the linked document in a named frame
+
+
+This example will open the linked document in a new browser window/tab:
+Example
+<a href="http://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+
+Tip: If your webpage is locked in a frame, you can use target="_top" to break out of the frame:
+Example
+<a href="http://www.w3schools.com/html/" target="_top">HTML5 tutorial!</a>
+
+HTML Links - Image as Link
+
+It is common to use images as links:
+
+Example
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+
+Note: border:0; is added to prevent IE9 (and earlier) from displaying a border around the image (when the image is a link).
+
+HTML Links - Create a Bookmark
+HTML bookmarks are used to allow readers to jump to specific parts of a Web page.
+
+Bookmarks can be useful if your webpage is very long.
+
+To make a bookmark, you must first create the bookmark, and then add a link to it.
+
+When the link is clicked, the page will scroll to the location with the bookmark.
+
+Example
+First, create a bookmark with the id attribute:
+
+<h2 id="tips">Useful Tips Section</h2>
+Then, add a link to the bookmark ("Useful Tips Section"), from within the same page:
+
+<a href="#tips">Visit the Useful Tips Section</a>
+Or, add a link to the bookmark ("Useful Tips Section"), from another page:
+
+Example
+<a href="html_tips.html#tips">Visit the Useful Tips Section</a>

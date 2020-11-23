@@ -1,0 +1,59 @@
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 style="background-color:#FF0000">
+Background-color set by using #FF0000
+</h2>
+
+<h2 style="background-color:#00FF00">
+Background-color set by using #00FF00
+</h2>
+
+<h2 style="background-color:#0000FF">
+Background-color set by using #0000FF
+</h2>
+
+<h2 style="background-color:#FFFF00">
+Background-color set by using #FFFF00
+</h2>
+
+<h2 style="background-color:#FF00FF">
+Background-color set by using #FF00FF
+</h2>
+
+<h2 style="background-color:#00FFFF">
+Background-color set by using #00FFFF
+</h2>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 style="background-color:#000000;color:white">
+Background-color set by using #000000
+</h2>
+
+<h2 style="background-color:#808080;color:white">
+Background-color set by using #808080
+</h2>
+
+<h2 style="background-color:#FFFFFF;">
+Background-color set by using #FFFFFF
+</h2>
+
+</body>
+</html>
